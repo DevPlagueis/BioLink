@@ -1,0 +1,14 @@
+#SignUpForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border: 3px solid grey;
+    padding: 5px;
+}
+
+#SignUpBox {
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: center;
+    margin-top: 200px;
+}
