@@ -26,6 +26,7 @@ function SignUp() {
     console.log("Email Domain: " + result);
   };
 
+
   return (
     <>
         <div id="SignUpContainer">
