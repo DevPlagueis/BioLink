@@ -1,0 +1,7 @@
+:root {
+    --bio_link_blue: rgb(133, 133, 224);
+}
+
+body {
+    background-color: var(--bio_link_blue);
+}

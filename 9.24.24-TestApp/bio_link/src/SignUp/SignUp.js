@@ -19,11 +19,11 @@ function SignUp() {
     //  Do something with the values 
     let str = "cuestam.dev@gmail.com";
     // Find the index of the '@' symbol
-    let atSymb = str.indexOf('@');
+    let atSymb = email.indexOf('@');
 
     // Strip out the part starting at '@'
-    let result = str.substring(atSymb + 1); // "gmail.com"
-    console.log("Email Domain: " + result);
+    let resultDomain = email.substring(atSymb + 1); // "gmail.com"
+    console.log("Email Domain: " + resultDomain);
   };
 
 
