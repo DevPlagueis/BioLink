@@ -1,7 +1,17 @@
 :root {
     --bio_link_blue: rgb(133, 133, 224);
+    --black: rgb(0, 0, 0);
 }
 
+/* * {
+    margin: 10px;
+    border: 2px solid var(--black);
+} */
 body {
     background-color: var(--bio_link_blue);
+}
+
+#page-container {
+    margin: 10px;
+    border: 2px solid var(--black);
 }
