@@ -1,1 +1,1 @@
-console.log("i'm connected")
+console.log("JS FILE IS CONNECTED TO APP.HTML")

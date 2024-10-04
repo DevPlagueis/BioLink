@@ -1,17 +1,61 @@
 :root {
     --bio_link_blue: rgb(133, 133, 224);
     --black: rgb(0, 0, 0);
+    --red: rgb(255, 0, 0);
+    --yellow: rgb(255, 255, 0);
+    --off-white: aliceblue;
 }
 
-/* * {
-    margin: 10px;
-    border: 2px solid var(--black);
-} */
 body {
     background-color: var(--bio_link_blue);
 }
-
+/* --------------------------------NAVBAR-------------------------*/
+#nav-bar {
+    border: 1px solid var(--black);
+    display: flex;
+    overflow: hidden;
+    height: 2em;
+    justify-content: space-between;
+    align-items: center;
+}
+icons {
+    background-color: var(--off-white);
+    height: 75%;
+    width: fit-content;
+}
+/* --------------------------------PAGE-------------------------*/
 #page-container {
-    margin: 10px;
     border: 2px solid var(--black);
+
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+#page-content {
+    border: 2px solid var(--red);
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    overflow: hidden;
+}
+
+#explore-bar {
+    border: 1px solid var(--off-white);
+    display: flex;
+    overflow: hidden;
+    height: 5em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#main-feed {
+    border: 1px solid var(--yellow);
+}
+/* --------------------------------SIDEBAR-------------------------*/
+#side-bar {
+    border: 2px solid var(--black);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
 }
