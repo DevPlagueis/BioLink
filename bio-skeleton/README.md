@@ -30,21 +30,23 @@
 
 > (OPTIONAL) Img of Titles content
 
-> Title Info:
+> Title Type:
 * Type of Content; Article, Website, Book, Etc.
 
 > Date of Titles main Content 
 
-> Views / clicks from individual contacts(users)
+> Views (reads)/ clicks from individual contacts(users)
 
->Type?(not sure about this on)
-* Seems to be a cetegory specific to our example site, could be interesting to add this to our site
+>category?(not sure about this on)
+* Seems to be a category specific to our example site, could be interesting to add this to our site
 
 > Collaborators 
 * users on (or not) site who contributed to titles main content
 
-### Actionable Items-------------:
+### Actionable  media Items-------------:
 >Options to download, save to your profiles (privatley), follow, 'recommend' (indorse?), and share (create new content card on others feeds)
+
+^ so link would be an indorse or reccomnd feature. more links means more pull in the bio tech space
 
 
 

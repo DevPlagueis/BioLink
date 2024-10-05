@@ -1,5 +1,3 @@
-import { sharedData } from './data.js';
-
 function createAllCards(dataMatrix) {
     for (const { id, title, img, desc} of dataMatrix) {
         // Pass unique text content, ID, and onclick handler for each card
@@ -53,3 +51,5 @@ function makeCard(textContent, cardId, clickHandler) {
 }
 
 //////////////////////////////
+
+
