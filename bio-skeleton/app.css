@@ -53,9 +53,14 @@ icons {
     justify-content: space-between;
     align-items: center;
 }
+/* --------------------------------FEED-------------------------*/
 
 #main-feed {
     border: 1px solid var(--red);
+}
+
+#feed-cards {
+    border: 1px solid var(--yellow);
 }
 /* --------------------------------SIDEBAR-------------------------*/
 #side-bar {
