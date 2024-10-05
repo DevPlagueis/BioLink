@@ -45,11 +45,18 @@ function makeCard(textContent, cardId, clickHandler) {
 
     });
     //function to...
-
-    
     page.appendChild(card);
 }
 
 //////////////////////////////
 
+const cards_container = document.getElementById("feed-cards")
+const card = document.createElement('div')
+card.classList.add('cards')
+card.textContent = "card"
 
+// for (let i = 0; i < 5; i++) {
+//     cards_container.appendChild(card)
+// }
+cards_container.appendChild(card)
+cards_container.appendChild(card)
