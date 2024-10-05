@@ -58,7 +58,7 @@ icons {
 /* --------------------------------FEED-------------------------*/
 
 #main-feed {
-    border: 1px solid var(--red);
+    /* border: 1px solid var(--red); */
     display: flex;
     flex-direction: column;
 }
@@ -68,18 +68,34 @@ icons {
     display: flex;
     flex-grow: 2;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     height: fit-content;
 }
 .cards {
-    /* border: 3px solid var(--green); */
-    /* min-width: ;
-    min-height: ;
-    max-width: ;
-    max-height: ; */
-    width: 25%;
-    /* height: 275px; */
+    border: 3px solid var(--green);
+    width: 550px;
+    height: fit-content;
+    min-width: 10%;
+    min-height: 175px;
+    max-width: 550px;
+    max-height: 275px;
     background-color: blueviolet;
+    display: flex;
+}
+.card_header {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-grow: 2;
+}
+
+.header_section {
+    display: flex;
+    border: 1px solid black;
+}
+.header_right {
+    gap: 1em;
 }
 /* --------------------------------SIDEBAR-------------------------*/
 #side-bar {
