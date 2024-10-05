@@ -9,8 +9,8 @@
 }
 
 html {
-    background-color: var(--black);
-    color: var(--off-white)
+    background-color: var(--off-white);
+    /* color: var() */
 }
 body {
     /* background: var(--off-white); */
@@ -59,6 +59,8 @@ icons {
 
 #main-feed {
     border: 1px solid var(--red);
+    display: flex;
+    flex-direction: column;
 }
 
 #feed-cards {
@@ -76,7 +78,7 @@ icons {
     max-width: ;
     max-height: ; */
     width: 25%;
-    height: 275px;
+    /* height: 275px; */
     background-color: blueviolet;
 }
 /* --------------------------------SIDEBAR-------------------------*/
