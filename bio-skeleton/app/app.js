@@ -62,40 +62,11 @@ function formatDate() {
     const formattedDate = `${month}/${day}/${year}`
     return formattedDate
 }
-///////////////
-//DATA for sample card//
-//below is matrix of users
-//find way to create this from flat / json file
-const contact_matrix = [
-    {
-        contact_id: '000',
-        first_name: 'Michael',
-        last_name: 'Cuesta',
-        contact_affil: 'ABC UNIVERSITY',
-        contact_email: 'mikesFake@email.com',
 
-    },
-    {
-        contact_id: '001',
-        first_name: 'Christian',
-        last_name: 'Vega',
-        contact_affil: 'XYZ UNIVERSITY',
-        contact_email: 'vegaFake@email.com',
-
-    },
-    {
-        contact_id: '002',
-        first_name: 'Vic',
-        last_name: 'Lapost',
-        contact_affil: 'QRS UNIVERSITY',
-        contact_email: 'vicFake@email.com',
-
-    }
-]
 
 function makeCards(dict) {
 
-    for (const { contact_id, first_name, last_name, contact_affil, contact_email} of dict) {
+    for (const { first_name, last_name, } of dict) {
         console.log(first_name + ' ' + last_name)
         
         const feed = document.getElementById('feed-cards')
@@ -130,3 +101,4 @@ function makeCards(dict) {
 }
 
 makeCards(contact_matrix)
+ 
