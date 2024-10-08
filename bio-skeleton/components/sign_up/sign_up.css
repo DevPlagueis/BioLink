@@ -1,6 +1,21 @@
+:root {
+    --primary-100:#0085ff;
+    --primary-200:#69b4ff;
+    --primary-300:#e0ffff;
+    --accent-100:#006eff88;
+    --accent-200:#e1ffff;
+    --accent-300:#c5da3f;
+    --text-100:#FFFFFF;
+    --text-200:#9e9e9e;
+    --bg-100:#1E1E1E;
+    --bg-200:#2d2d2d;
+    --bg-300:#454545;
+    --black: #000000;
+}
 body {
     display: flex;
     justify-content: center;
+    background-color: var(--bg-100);
 }
 
 #SignUpContainer {
@@ -16,7 +31,25 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
-    border: 3px solid grey;
+    border: 3px solid var(--text-200);
     padding: 5px;
+    background-color: var(--accent-100);
+}
+input {
+    border: 2px solid var(--black)
+}
+a {
+    text-decoration: none;
+    height: fit-content;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:visited {
+    color: var(--text-200);
+}
+h1 {
+    color: var(--primary-100);
+    text-shadow:  2px 1px #c5da3f;
 }
 

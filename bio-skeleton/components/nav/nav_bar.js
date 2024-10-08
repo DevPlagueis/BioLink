@@ -43,7 +43,7 @@ function createNavIcons(dict) {
             icon.classList.add('nav_icons')
             
             icon.setAttribute('href', nav_icons[icon_side][icon_text])
-            console.log(nav_icons[icon_side][icon_text])
+            // console.log(nav_icons[icon_side][icon_text])
             icon.textContent = icon_text
             targetDiv.appendChild(icon)
 
