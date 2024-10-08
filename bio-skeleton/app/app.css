@@ -32,7 +32,7 @@ body {
     gap: 1em;
 }
 .icons {
-    border: 1px solid var(--yellow);
+    /* border: 1px solid var(--yellow); */
     height: 75%;
     width: fit-content;
     margin: 0px 10px;

@@ -2,9 +2,9 @@
 
 const nav_icons = {
     left_icons: {
-        'Sign Up': "Left Icon 1"
-        ,2: "Left Icon 2"
-        ,3: "Left Icon 3"
+        'Sign Up': "../components/sign_up/sign_up.html"
+        ,'left 2': "Left Icon 2"
+        ,'left 3': "Left Icon 3"
         ,'Explore': "Left Icon 4"
     }
     ,right_icons: {
@@ -38,11 +38,15 @@ function createNavIcons(dict) {
         const targetDiv = icon_side === 'left_icons' ? nav_left_icons : nav_right_icons;
         // Iterate through each set of icons
         for (const icon_text in dict[icon_side]) {
-            // console.log(`${iconKey}: ${nav_icons[side][iconKey]}`)
-            const icon = document.createElement('div')
+            // console.log(`${nav_icons[icon_side][icon_text]}`)
+            const icon = document.createElement('a')
             icon.classList.add('icons')
+            
+            icon.setAttribute('href', nav_icons[icon_side][icon_text])
+            console.log(nav_icons[icon_side][icon_text])
             icon.textContent = icon_text
             targetDiv.appendChild(icon)
+
         }
     }
 }
