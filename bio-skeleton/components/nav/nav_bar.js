@@ -22,8 +22,8 @@ const search_bar = document.createElement('form')
 const search_input = document.createElement('input')
 nav_left_icons.id = "nav-left-icons"
 nav_right_icons.id = "nav-right-icons"
-nav_left_icons.classList.add('icons')
-nav_right_icons.classList.add('icons')
+// nav_left_icons.classList.add('icons')
+// nav_right_icons.classList.add('icons')
 nav_bar.appendChild(nav_left_icons)
 nav_bar.appendChild(search_bar)
 nav_bar.appendChild(nav_right_icons)
@@ -40,7 +40,7 @@ function createNavIcons(dict) {
         for (const icon_text in dict[icon_side]) {
             // console.log(`${nav_icons[icon_side][icon_text]}`)
             const icon = document.createElement('a')
-            icon.classList.add('icons')
+            icon.classList.add('nav_icons')
             
             icon.setAttribute('href', nav_icons[icon_side][icon_text])
             console.log(nav_icons[icon_side][icon_text])

@@ -15,6 +15,12 @@ html {
 body {
     background: var(--off-white);
 }
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: var(--black);
+}
 /* --------------------------------NAVBAR-------------------------*/
 #nav-bar {
     border: 1px solid var(--black);
@@ -31,11 +37,14 @@ body {
     justify-content: space-between;
     gap: 1em;
 }
-.icons {
+.nav_icons {
     /* border: 1px solid var(--yellow); */
     height: 75%;
     width: fit-content;
     margin: 0px 10px;
+}
+.nav_icons:hover {
+    text-decoration: underline;
 }
 /* --------------------------------PAGE-------------------------*/
 #page-container {
