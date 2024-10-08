@@ -3,15 +3,15 @@
 const nav_icons = {
     left_icons: {
         'Sign Up': "../components/sign_up/sign_up.html"
-        ,'left 2': "Left Icon 2"
-        ,'left 3': "Left Icon 3"
-        ,'Explore': "Left Icon 4"
+        ,'left 2': "#"
+        ,'left 3': "#"
+        ,'Explore': "../components/explore/explore.html"
     }
     ,right_icons: {
-        'Dark Mode': "right Icon 1"
-        ,'Info': "right Icon 2"
-        ,'About': "right Icon 3"
-        ,'Profile': "right Icon 4"
+        'Messages': "#"
+        ,'Info': "#"
+        ,'About': "#"
+        ,'Profile': "#"
     }
 }
 
@@ -35,7 +35,7 @@ function createNavIcons(dict) {
     // Iterate through the nav icons object
     for (const icon_side in dict) {
         //sets the 'side' loop is working on for our append
-        const targetDiv = icon_side === 'left_icons' ? nav_left_icons : nav_right_icons;
+        const targetDiv = icon_side === 'left_icons' ? nav_left_icons : nav_right_icons
         // Iterate through each set of icons
         for (const icon_text in dict[icon_side]) {
             // console.log(`${nav_icons[icon_side][icon_text]}`)

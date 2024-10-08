@@ -1,19 +1,19 @@
 :root {
-    --bio_link_blue: rgb(133, 133, 224);
+    --bio_link_blue: rgb(24, 24, 118);
     --black: rgb(0, 0, 0);
     --red: rgb(255, 0, 0);
     --green: rgb(46, 139, 87);
     --yellow: rgb(255, 255, 0);
-    --icon-blue: rgb(30, 30, 249);
-    --off-white: rgb(133, 191, 241);
+    --off-white: rgb(178, 196, 212);
+    --grey: rgb(118, 118, 118);
 }
 
 html {
-    background-color: var(--off-white);
+    background-color: var(--bio_link_blue);
     /* color: var() */
 }
 body {
-    /* background: var(--off-white); */
+    background: var(--off-white);
 }
 /* --------------------------------NAVBAR-------------------------*/
 #nav-bar {
@@ -54,7 +54,7 @@ body {
 }
 
 #explore-bar {
-    border: 1px solid var(--off-white);
+    /* border: 1px solid var(--off-white); */
     display: flex;
     overflow: hidden;
     height: 5em;
@@ -70,7 +70,7 @@ body {
 }
 
 #feed-cards {
-    border: 1px solid var(--yellow);
+    /* border: 1px solid var(--yellow); */
     display: flex;
     flex-grow: 2;
     flex-direction: column;
@@ -78,14 +78,14 @@ body {
     height: fit-content;
 }
 .cards {
-    border: 3px solid var(--green);
+    border: 3px solid var();
     width: 550px;
     height: fit-content;
     min-width: 10%;
     min-height: 175px;
     max-width: 550px;
     max-height: 275px;
-    background-color: blueviolet;
+    background-color: var(--off-white);
     display: flex;
 }
 .card_header {
