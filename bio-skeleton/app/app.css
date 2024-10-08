@@ -25,7 +25,7 @@ body {
     justify-content: space-between;
     align-items: center;
 }
-icons {
+.icons {
     background-color: var(--icon-blue);
     height: 75%;
     width: fit-content;
