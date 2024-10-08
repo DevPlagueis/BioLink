@@ -25,8 +25,14 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+#nav-left-icons
+,#nav-right-icons {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+}
 .icons {
-    background-color: var(--icon-blue);
+    border: 1px solid var(--yellow);
     height: 75%;
     width: fit-content;
     margin: 0px 10px;

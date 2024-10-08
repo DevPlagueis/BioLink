@@ -93,8 +93,6 @@ const contact_matrix = [
 function makeCards(dict) {
 
     for (const { first_name, last_name, } of dict) {
-        console.log(first_name + ' ' + last_name)
-        
         const feed = document.getElementById('feed-cards')
         const card = document.createElement('div')
             card.classList.add('cards')
