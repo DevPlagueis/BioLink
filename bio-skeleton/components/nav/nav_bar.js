@@ -10,7 +10,7 @@ const nav_icons = {
     ,right_icons: {
         'Messages': "#"
         ,'Info': "#"
-        ,'About': "#"
+        ,'About': "../components/about/about.html"
         ,'Profile': "#"
     }
 }
