@@ -74,7 +74,7 @@ hr { height: 5px;}
 }
 .nav-link:hover {
     /* background-color:#892CDC;; */
-    box-shadow: 0 0 24px 1px #892CDC;
+    box-shadow: 0 0 24px 1px var(--primary-100);
 }
 .nav-link:hover {
     color: #D6C6E1;
@@ -89,9 +89,11 @@ hr { height: 5px;}
 #headerContainer {
     background-color: var(--black);
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
+    align-self: center;
+    align-items: center;
     padding: 2em 2em;
-    width: fit-content;
+    width: 100%;
 }
 #header-txt {
     width: 50%;
@@ -128,12 +130,13 @@ hr { height: 5px;}
 }
 #cards {
     display: flex;
+    gap: 2pc;
     justify-content: center;
     text-align: center;
     flex-wrap: wrap;
 }
 .card-txt {
-    width: 150px;
+    width: 75px;
     display: flex;
     flex-direction: column;
     align-items: center;
