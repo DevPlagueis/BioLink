@@ -32,7 +32,7 @@ body {
 }
 .biolink_logo{
     margin-top: 42px;
-    border: 2px solid var(--text-100);
+    /* border: 2px solid var(--text-100); */
     color: var(--accent-100);
     height: fit-content;
     display: flex;
@@ -89,11 +89,9 @@ hr { height: 5px;}
 #headerContainer {
     background-color: var(--black);
     display: flex;
-    /* justify-content: center; */
-    align-self: center;
-    align-items: center;
+    align-content: center;
     padding: 2em 2em;
-    width: 100%;
+    /* width: 100%; */
 }
 #header-txt {
     width: 50%;
