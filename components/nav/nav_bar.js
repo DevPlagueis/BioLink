@@ -2,15 +2,15 @@
 
 const nav_icons = {
     left_icons: {
-        'Sign Up': "../components/sign_up/sign_up.html"
+        'Sign Up': "../sign_up/sign_up.html"
         ,'left 2': "#"
         ,'left 3': "#"
-        ,'Explore': "../components/explore/explore.html"
+        ,'Explore': "../explore/explore.html"
     }
     ,right_icons: {
         'Messages': "#"
         ,'Info': "#"
-        ,'About': "../components/about/about.html"
+        ,'About': "../about/about.html"
         ,'Profile': "#"
     }
 }
