@@ -6,6 +6,7 @@
 
 
 
+<<<<<<< HEAD
 
 
 ## Page Content
@@ -59,3 +60,12 @@
 
 ## Footer
 * Need to do
+=======
+above university email domain list spells it out by country, school, domain, but does not currently show province or state data (would be nice to break down to New England for smaller cohort)
+
+> Quick Notes:
+- for user log in / sign up, have state drop down to select state affiliation
+ ( state affiliation should he where candidate is working ouf of primarily, more than 50%)
+- this leads user to new screen, log in, but data entered is referenced with jaon file filtered down to that state 
+
+>>>>>>> 28831bbc85a0efbde68b1ef12a09b818c348315e
